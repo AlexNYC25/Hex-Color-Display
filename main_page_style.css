@@ -1,0 +1,19 @@
+
+html{
+	background-color: #e5eff9
+}
+
+.title{
+	background-color: #429bf4;
+	text-align: center;
+	/*position: absolute; */
+	top: 0px
+	left: 2px;
+
+}
+
+.creator_details{
+	position: absolute;
+	bottom: 2px;
+	background-color: #9ddbca
+}
