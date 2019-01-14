@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 	<html>
-	<link rel="stylesheet" type="text/css" href="main_page_style.css">
-	<header>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main_page_style.css">
+		<script type="text/javascript" src="js/main_script.js"></script>
+	</head>
+
+	<nav id="header">
 		<h1 class="title"> Simple Hex Color Code Displayer </h1>
-	</header>
+	</nav>
 
 	<body>
-		<!-- 
-			This is to be a rectangle with a starting value of white
-			changes when an input is proceesed
-		-->
-		<h2> Current Color </h2>
+		<div id="display-block">
+			<!-- 
+				This is to be a rectangle with a starting value of white
+				changes when an input is proceesed
+			-->
+			<h2 id="display-text"> Current Color </h2>
 
-		<!--
-			Single line form that takes a single line of text
-		-->
-		<form>
-			<input type="" name="">
-		</form>
+			<!--
+				Single line form that takes a single line of text
+			-->
+			<form id="main-form">
+				<input type="text" name="name-input">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
 	</body>	
 
 	<footer class="creator_details">
